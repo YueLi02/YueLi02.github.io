@@ -35,8 +35,8 @@ kramdown:
 owner:
   name: Wanki
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  job: # 
+  bio: "A simple blog happy's family."
   email:
   disqus-shortname:
   twitter: #username
