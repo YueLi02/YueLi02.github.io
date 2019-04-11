@@ -5,7 +5,7 @@
 #
 title: Wanki.tk
 email: yueli0902@gmail.com
-description: A simple blog happy's family
+description: A simple blog of happy's family
 url: https://wanki.tk
 keywords: ["blog", "jekyll"]
 
@@ -33,10 +33,10 @@ kramdown:
 ####################################
 #
 owner:
-  name: Wanki
+  name: Wanki and Yue
   avatar: leonids-logo.png
   job: # 
-  bio: "A simple blog happy's family."
+  bio: "A simple blog of happy's family."
   email:
   disqus-shortname:
   twitter: #username
