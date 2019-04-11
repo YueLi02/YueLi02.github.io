@@ -40,7 +40,7 @@ layout: default
   </article>
 </div>
 
-<div class="share-buttons">
+<!--<div class="share-buttons">
   <h6>Share on: </h6>
   <ul>
     <li>
@@ -59,7 +59,22 @@ layout: default
       <a href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
     </li>
   </ul>
-</div><!-- end share-buttons -->
+</div><!-- end share-buttons --> 
+
+<div class="social-share" data-initialized="true" data-wechat-qrcode-title="不扫别后悔">
+  <center>
+  <font style="font-size:18px;color:darkcyan;">分享到：</font>
+  <a href="#" class="social-share-icon icon-weibo"></a>
+  <a href="#" class="social-share-icon icon-wechat"></a>
+  <a href="#" class="social-share-icon icon-twitter"></a>
+  <a href="#" class="social-share-icon icon-linkedin"></a>
+  <a href="#" class="social-share-icon icon-facebook"></a>
+  <a href="#" class="social-share-icon icon-qq"></a>
+  <a href="#" class="social-share-icon icon-qzone"></a>
+  </center>
+</div>
+
+<script src="/:js/social-share.min.js"></script>
 
 {% if site.owner.disqus-shortname and page.comments == true %}
 <div id="disqus_thread"></div>
