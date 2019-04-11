@@ -106,6 +106,8 @@ a {
 footer {
   text-align: center;
   padding: 3em 0;
+  position: absolute;
+  bottom: 0;
   .heart-icon {
     color: $danger;
     text-shadow: 0 0 5px $white, 0 0 10px $danger;
