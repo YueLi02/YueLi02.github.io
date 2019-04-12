@@ -40,6 +40,13 @@ layout: default
   </article>
 </div>
 
+<!--comment-->
+{% if site.comment.enabled %}
+<div class="comments">
+  {% include comment.html%}
+</div>
+{% endif %}
+
 <script src="/js/social_share_min.js"></script>
 
 <div class="social-share" data-initialized="true" data-wechat-qrcode-title="ops">
