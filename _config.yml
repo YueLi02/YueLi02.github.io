@@ -69,6 +69,3 @@ owner:
   codepen: #username
   reddit: #username
   telegram: #username
-#comment 评论配置
-comment:
-  enabled: true
